@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: limegreen;
+}
+
+div {
+    margin-left: 0;
+    width: 460px; 
+}
+
+.panel {
+    font-family: 'Courier New', Courier, monospace;
+    color: limegreen;
+    border-radius: 10px;
+    border: 3px solid limegreen;
+    box-shadow: 6px 6px limegreen;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+    text-indent: 20px;
+    background: black;
+}
+
+.panel:active {
+    box-shadow: 2px 2px limegreen;
+    transform: translateX(4px) translateY(4px);
+}
+
+#blinking_cursor {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
