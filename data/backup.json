@@ -33,5 +33,19 @@
         "Name": "3c879496a67cbdbea49c53444619354f",
         "TimeStamp": "2022-07-08 16:26:17.145919",
         "Status": "Running..."
+    },
+    "3139a7bce0fb49aa6e5b1d6189680917": {
+        "Category": "default",
+        "Description": "No description.",
+        "Name": "3139a7bce0fb49aa6e5b1d6189680917",
+        "TimeStamp": "2022-07-08 17:05:46.289210",
+        "Status": "Failed"
+    },
+    "e869017ae6e5bac7f34da4f409869f4c": {
+        "Category": "Backups",
+        "Description": "Backup my obsidian files",
+        "Name": "Obsidian Backup",
+        "TimeStamp": "2022-07-08 17:06:10.105518",
+        "Status": "Success"
     }
 }

@@ -3,10 +3,12 @@ import random
 import subprocess
 import sys
 from datetime import datetime
+import pathlib
 
 from LoggingTools import LoggingController
 
-backup_file = 'data/backup.json'
+base_path = pathlib.Path(__file__).parent.parent.absolute()
+backup_file = f'{base_path}/data/backup.json'
 json_controller = LoggingController(backup_file)
 
 parser = argparse.ArgumentParser(description='Track cron commands.')
