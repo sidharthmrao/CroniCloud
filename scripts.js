@@ -48,6 +48,11 @@ populate(5);
 
 function expand(id) {
     let element = document.getElementById(id);
-    element.style.width = element.value.length + "ch";
-    console.log(element.style.width)
+    console.log(element)
+    console.log(element.selectionStart);
+    if (element.selectionStart > 0) {
+        element.style.marginRight = -1.5 - (44 - element.selectionStart) + "ch";
+    } else {
+        element.style.marginRight = -1.5 - 44 + "ch";
+    }
 }

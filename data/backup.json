@@ -1,0 +1,37 @@
+{
+    "a58ac27452fffdf89c23622e5590a8eb": {
+        "Category": "backups",
+        "Description": "Backup Obsidian markdown files to github.",
+        "Name": "obsidian_backup",
+        "TimeStamp": "2022-07-07 15:46:23.475388",
+        "Status": "Success"
+    },
+    "767dd7a6cd482f2e1e1ff1933e61b5f6": {
+        "Category": "backups",
+        "Description": "Backup Obsidian markdown files to github.",
+        "Name": "obsidian_backup",
+        "TimeStamp": "2022-07-07 15:46:36.387167",
+        "Status": "Success"
+    },
+    "b07c1f387b437a0ea1c1ec3a93a3cde8": {
+        "Category": "default",
+        "Description": "No description.",
+        "Name": "b07c1f387b437a0ea1c1ec3a93a3cde8",
+        "TimeStamp": "2022-07-08 16:20:54.058460",
+        "Status": "Running..."
+    },
+    "cdc417ee05c6f4d64ca80f4ff08b5248": {
+        "Category": "default",
+        "Description": "No description.",
+        "Name": "cdc417ee05c6f4d64ca80f4ff08b5248",
+        "TimeStamp": "2022-07-08 16:26:09.674385",
+        "Status": "Running..."
+    },
+    "3c879496a67cbdbea49c53444619354f": {
+        "Category": "default",
+        "Description": "No description.",
+        "Name": "3c879496a67cbdbea49c53444619354f",
+        "TimeStamp": "2022-07-08 16:26:17.145919",
+        "Status": "Running..."
+    }
+}
