@@ -42,4 +42,4 @@ elif args.exec:
 		json_controller.update_event(hash_id, "Status", "Success")
 
 	except subprocess.CalledProcessError:
-		json_controller.update_event(hash_id, "Status", "Failed")
+		json_controller.update_event(hash_id, "Status", "FAILED")

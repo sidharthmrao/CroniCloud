@@ -27,6 +27,17 @@ div {
     transform: translateX(4px) translateY(4px);
 }
 
+.panel_error {
+    color: red;
+    border: 3px solid red;
+    box-shadow: 6px 6px red;
+}
+
+.panel_error:active {
+    box-shadow: 2px 2px red;
+    transform: translateX(4px) translateY(4px);
+}
+
 #blinking_cursor {
     animation: blinker 1s linear infinite;
 }
