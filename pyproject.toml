@@ -1,13 +1,18 @@
 [tool.poetry]
 name = "CroniCloud"
-version = "0.1.0"
+version = "0.2.0"
 description = "Monitor Cron commands with a visual interface."
 authors = ["Sidharth Rao <sidharthmrao@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+asgiref = "^3.5.2"
+Flask = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+flake8 = "^4.0.1"
+black = "^22.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
