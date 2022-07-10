@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Node development files
+node_modules/
+
 # Distribution / packaging
 .Python
 build/
