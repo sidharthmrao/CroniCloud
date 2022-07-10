@@ -45,7 +45,7 @@ function populate(backups) {
 
 function start() {
     console.log(window.location.pathname);
-    fetch("/backup.json")
+    fetch("data/backup.json")
         .then(response => response.json())
         .then(json=>{
             backups = json;

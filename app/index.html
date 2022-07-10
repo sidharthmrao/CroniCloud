@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/styles.css">
-    <script type="text/javascript" src="../static/js/scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
     <title>CRONICLOUD</title>
 </head>
 <body style="background: black" onload="start();">
@@ -20,32 +20,5 @@
         </div>
         <div id="event_list"></div>
     </div>
-
-    <!-- FOR FLASK WEB GUI: Keep server running -->
-
-    <script>
-        async function getRequest(url = '') {
-            const response = await fetch(url, {
-                method: 'GET',
-                cache: 'no-cache'
-            })
-            return response.json()
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-
-            let url = document.location
-            let route = "/flaskwebgui-keep-server-alive"
-            let interval_request = 3 * 1000 //sec
-
-            function keep_alive_server() {
-                getRequest(url + route)
-                    .then(data => console.log(data))
-            }
-
-            setInterval(keep_alive_server, interval_request)();
-
-        })
-    </script>
 </body>
 </html>
