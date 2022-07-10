@@ -677,5 +677,26 @@
         "Name": "Obsidian Backup",
         "TimeStamp": "2022-07-10 03:00:01.680862",
         "Status": "Success"
+    },
+    "8ab73c9b59002cd89d93aaae31b33dbe": {
+        "Category": "Backups",
+        "Description": "Backup my obsidian files",
+        "Name": "Obsidian Backup",
+        "TimeStamp": "2022-07-10 03:10:01.129457",
+        "Status": "Success"
+    },
+    "53ffb50d356c50b79f648161cd0df13f": {
+        "Category": "Backups",
+        "Description": "Backup my obsidian files",
+        "Name": "Obsidian Backup",
+        "TimeStamp": "2022-07-10 03:20:01.519128",
+        "Status": "Success"
+    },
+    "bfb684de2280528b908dc443aff89c15": {
+        "Category": "Backups",
+        "Description": "Backup my obsidian files",
+        "Name": "Obsidian Backup",
+        "TimeStamp": "2022-07-10 03:30:01.938479",
+        "Status": "Success"
     }
 }
